@@ -8,7 +8,7 @@ mongoose.connect(url, {useNewUrlParser:true})
 const con = mongoose.connection
 
 con.on('open',() => {
-    console.log('connected to the database')
+    console.log('connected to a database')
 })
 
 app.use(express.json())
