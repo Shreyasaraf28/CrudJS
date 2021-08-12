@@ -13,6 +13,7 @@ con.on('open',() => {
 
 app.use(express.json())
 
+
 const studentRouter = require('./routes/students')
 app.use('/students',studentRouter)
 
